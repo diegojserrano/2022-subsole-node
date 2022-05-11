@@ -1,0 +1,32 @@
+let art1 = {  nombre: "Lapiz", precio: 100  }
+art1
+let art2 = {  nombre: "Goma", precio: 60  }
+art2
+art2.nombre
+art2.precio
+art2.toString() =  { return this.nombre + "--" + this.precio }
+art2.toString = function  { return this.nombre + "--" + this.precio }
+art2.toString = function () { return this.nombre + "--" + this.precio }
+art2.toString()
+function mostrar_precio(articulo) { console.log(articulo.precio) }
+mostrar_precio(art1)
+mostrar_precio(art2)
+let art3 = { precio: 2222}
+mostrar_precio(art2)
+mostrar_precio(art3)
+for (let x in art1)
+console.log(x)
+for (let x of art1)
+art1.nombre
+art1.precio
+art1["precio"]
+art1["nombre"]
+for (let x in art1)
+console.log(x + ": " + art1[x])
+JSON.stringify(art1)
+JSON.parse('{"nombre":"Jorge Rosales", "documento":"123423", "telefono":"234234234"}'))
+JSON.parse('{"nombre":"Jorge Rosales", "documento":"123423", "telefono":"234234234"}')
+let cliente = JSON.parse('{"nombre":"Jorge Rosales", "documento":"123423", "telefono":"234234234"}')
+cliente
+cliente.nombre
+cliente.telefono
