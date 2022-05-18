@@ -1,0 +1,11 @@
+1- 
+
+Llenar un arreglo con 10 numeros aleatorios entre 1 y 1000.
+Mostrar todos los numeros generados.
+Mostrar el cuadrado de todos los numeros.
+Mostrar el listado de todos los numeros pares.
+Mostrar el listado del cuadrado de todos los numeros pares
+
+2- Reescribir el ejercicio anterior con funciones flecha.
+
+3- Reescribir los ejercicios 2 (gestión de artículos) y 3 (gestión de jugadores) de la clase 4 con funciones de orden superior y funciones flecha.
