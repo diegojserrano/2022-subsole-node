@@ -5,6 +5,7 @@ v = []
 for (let i = 0; i < 10; i++)
     v.push(funciones.numero_aleatorio(1,1000))
 
+    
 let imprimir = function(x) { console.log(x) }
 let cuadrado = function(x) { return x ** 2 }
 
