@@ -1,0 +1,89 @@
+{
+	"info": {
+		"_postman_id": "20b33d3d-a969-46f1-8eae-dbf3a2f0bd01",
+		"name": "Clase8-contador",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Consultar el contador",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/visitas/cantidad",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"visitas",
+						"cantidad"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Incrementar el contador",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/visitas/cantidad",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"visitas",
+						"cantidad"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Reiniciar el contador",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/visitas/cantidad",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"visitas",
+						"cantidad"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Asignar el contador a un valor",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/visitas/cantidad",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"visitas",
+						"cantidad"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,8 @@
+1) Desarrollar una API para el contador de visitas con las siguientes funcionalidades 
+
+* consultar el contador: GET /visitas/cantidad
+* contar: POST /visitas/cantidad
+* reiniciar: PUT /visitas/cantidad
+* asignar: PUT /visitas/cantidad/34 y PUT /visitas/cantidad?valor=34
+
+2) Desarrollar una API para un ABM de personas. De cada persona se conoce id, nombre y edad
